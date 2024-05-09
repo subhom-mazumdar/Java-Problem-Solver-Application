@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Basic Programming Questions"
+        android:textSize="36dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.467"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.020" />
+
+        <TextView
+            android:id="@+id/bp1"
+            android:background="@drawable/textv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Display your Name"
+            android:textAlignment="center"
+            android:textSize="19dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/head" />
+
+        <TextView
+            android:id="@+id/bp2"
+            android:layout_width="wrap_content"
+            android:background="@drawable/textv"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="WAP to display your first and last name on different lines"
+            android:textAlignment="center"
+            android:textSize="19dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bp1" />
+
+        <TextView
+            android:id="@+id/bp3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textv"
+            android:layout_marginTop="15dp"
+            android:text="WAP to find addition of two numbers"
+            android:textAlignment="center"
+            android:textSize="19dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bp2" />
+
+        <TextView
+            android:id="@+id/bp4"
+            android:layout_width="wrap_content"
+            android:background="@drawable/textv"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="WAP to swap two numbers"
+            android:textAlignment="center"
+            android:textSize="19dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bp3" />
+
+        <TextView
+            android:id="@+id/bp5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="WAP to determine area and perimeter of a rectangle by taking length and breadth as input"
+            android:textAlignment="center"
+            android:background="@drawable/textv"
+            android:textSize="19dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bp4" />
+
+        <TextView
+            android:id="@+id/bp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="WAP to determine area and perimeter of a rectangle by taking length and breadth as input"
+            android:textAlignment="center"
+            android:textSize="19dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:background="@drawable/textv"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bp4" />
+
+        <TextView
+            android:id="@+id/bp6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Mr. X invests certain sum at 5% p.a.compound interest for three years, WAP to determine interest a.for 1st year b.for 2nd year c. for 3rd year"
+            android:textAlignment="center"
+            android:textSize="19dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:background="@drawable/textv"
+            app:layout_constraintTop_toBottomOf="@+id/bp5" />
+
+        <TextView
+            android:id="@+id/bp7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="WAP to accept a number and print its square and cube"
+            android:textAlignment="center"
+            android:background="@drawable/textv"
+            android:textSize="19dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bp6" />
+
+        <TextView
+            android:id="@+id/bp8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="WAP to find ASCII code of a character"
+            android:textAlignment="center"
+            android:background="@drawable/textv"
+            android:textSize="19dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bp7" />
+
+        <TextView
+            android:id="@+id/bp9"
+            android:layout_width="wrap_content"
+            android:background="@drawable/textv"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="WAP to accept height and base of a right angled triangle and henceforth determine area, perimeter and hypoteneuse"
+            android:textAlignment="center"
+            android:textSize="19dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bp8" />
+
+        <TextView
+            android:id="@+id/bp10"
+            android:layout_width="wrap_content"
+            android:background="@drawable/textv"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="WAP for Simple Interest"
+            android:textAlignment="center"
+            android:textSize="19dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bp9" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,23 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Background Color -->
+    <solid android:color="#E0FF33" /> <!-- Change the color to your desired background color -->
+
+    <!-- Border -->
+    <stroke
+        android:width="2dp"
+        android:color="#E0FF33" /> <!-- Change the border color as needed -->
+
+    <!-- Shadow -->
+    <corners android:radius="20dp" /> <!-- Change the corner radius as needed -->
+    <padding
+        android:left="4dp"
+        android:right="4dp"
+        android:top="4dp"
+        android:bottom="4dp" /> <!-- Change the padding as needed -->
+    <gradient
+        android:startColor="#E0FF33"
+        android:endColor="#5EFF33"
+        android:angle="270" /> <!-- Change the shadow angle as needed -->
+</shape>
